@@ -10,15 +10,16 @@ body {
     width: 100%;
 }
 
-header h1{
+header div.container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
-header.container nav ul {
+header div.container nav ul {
     display: flex;
     flex-direction: row;
+    padding-left: 100px;
     text-align: right;
 }
 
@@ -26,4 +27,68 @@ img {
     object-fit: cover;
     height: 250px;
     width: 250px;
+}
+
+section.overview-hero div.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+header div.container nav ul li {
+    margin: 10px;
+}
+
+section.learn-about div.container div.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+section.testing div.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+}
+
+section.stories div.container article{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.stories div.container img{
+    height: 375px;
+    width: 375px;
+    border-radius: 100%;
+    object-fit: cover; 
+    float: left; 
+    padding-right: 10px;
+}
+
+section.stories div.container img{
+    padding-right: 25px;
+}
+
+section.newsletter div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+section.newsletter div.container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
