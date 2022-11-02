@@ -8,6 +8,8 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
 }
 
 header div.container {
@@ -19,7 +21,7 @@ header div.container {
 header div.container nav ul {
     display: flex;
     flex-direction: row;
-    padding-left: 100px;
+    padding-left: 290px;
     text-align: right;
 }
 
@@ -41,6 +43,8 @@ header {
     padding-top: 0px;
     display: flex;
     flex-direction: row;
+    background-color: white;
+
 }
 
 header div.container nav ul li {
@@ -91,4 +95,102 @@ section.newsletter div.container form {
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+header div.container{
+    font-size: 18px;
+}
+
+header div.container ul li{
+    color: #6b7280;
+}
+
+header div.container ul li :hover {
+    color: #5A67D8;
+}
+
+section.overview-hero {
+    background-color: #E2E2F0;
+}
+
+section.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+section.learn-about div.container div.cards div.card {
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0px -8px 5px -10px #888888;
+    padding-left: 50px;
+}
+
+section.learn-about div.container div.cards div.card div.card-body h3 {
+    font-size: 21px;
+    color: #48BB78;
+}
+
+section.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+section.testing div.cta {
+    background-color: #48BB78;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+}
+
+section.testing div.container div.cta a{
+    color: white;
+}
+
+section.stories div.container h2, p a {
+    color: #5A67D8;
+} 
+
+section.stories div.container h3 {
+    font-size: 18px;
+}
+
+section.stories div.container img {
+    border-radius: 100%;
+}
+
+section.newsletter {
+    background-color: #48BB78;
+    color: white;
+}
+
+section.newsletter div.container form {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section.newsletter div.container form button {
+    background-color: #5A67D8;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-left: 1%;
+}
+
+section.newsletter div.container form input {
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    background-color: #4A5568;
+    color: white;
+    padding: auto;
 }
