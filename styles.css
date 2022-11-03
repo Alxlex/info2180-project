@@ -21,7 +21,7 @@ header div.container {
 header div.container nav ul {
     display: flex;
     flex-direction: row;
-    padding-left: 290px;
+    padding-left: 200px;
     text-align: right;
 }
 
@@ -148,10 +148,12 @@ section.testing div.cta {
 
 section.testing div.container div.cta a{
     color: white;
+    text-decoration: none;
 }
 
 section.stories div.container h2, p a {
     color: #5A67D8;
+    text-decoration: none;
 } 
 
 section.stories div.container h3 {
@@ -179,6 +181,8 @@ section.newsletter div.container form button {
     width: 200px;
     border: none;
     margin-left: 1%;
+    text-decoration: none;
+    color: white;
 }
 
 section.newsletter div.container form input {
@@ -194,3 +198,12 @@ footer {
     color: white;
     padding: auto;
 }
+
+header div.container nav ul {
+    list-style: none;
+}
+
+header div.container nav ul a {
+    text-decoration: none;
+}
+
